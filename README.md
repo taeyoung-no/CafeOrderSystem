@@ -184,7 +184,7 @@ PaymentStrategy ..> Payment
 Order "1" *-- "1..*" OrderItem
 OrderItem "1" --> "1" Menu
 OrderItem "1" --> "0..*" Option
-Menu "1" --> "0..*" Option
+Menu "*" --> "*" Option
 Order "1" *-- "0..1" Payment
 Order --> DineType
 Order --> OrderStatus
