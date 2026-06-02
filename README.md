@@ -192,3 +192,66 @@ Order --> OrderStatus
 
 ### ERD
 
+```mermaid
+erDiagram
+  MENU ||--o{ MENU_OPTION : " "
+  OPTION ||--o{ MENU_OPTION : " "
+
+  ORDERS ||--|{ ORDER_ITEM : " "
+  ORDERS ||--o| PAYMENT : " "
+
+  MENU ||--o{ ORDER_ITEM : " "
+  ORDER_ITEM ||--o{ ORDER_ITEM_OPTION : " "
+  OPTION ||--o{ ORDER_ITEM_OPTION : " "
+
+  MENU {
+    bigint id PK
+    string name
+    int price
+    string category
+    boolean available
+  }
+
+  OPTION {
+    bigint id PK
+    string name
+    int extra_price
+  }
+
+  MENU_OPTION {
+    bigint menu_id PK,FK
+    bigint option_id PK,FK
+  }
+
+  ORDERS {
+    bigint id PK
+    string dine_type
+    string status
+    datetime ordered_at
+  }
+
+  ORDER_ITEM {
+    bigint id PK
+    bigint order_id FK
+    bigint menu_id FK
+    string menu_name
+    int unit_price
+    int quantity
+  }
+
+  ORDER_ITEM_OPTION {
+    bigint id PK
+    bigint order_item_id FK
+    bigint option_id FK
+    string option_name
+    int extra_price
+  }
+
+  PAYMENT {
+    bigint id PK
+    bigint order_id FK
+    int amount
+    string method
+    datetime paid_at
+  }
+```
