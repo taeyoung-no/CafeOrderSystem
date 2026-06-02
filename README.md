@@ -37,7 +37,7 @@ flowchart LR
     %% 직원 유스케이스
     UC_ManageMenu(["메뉴 관리\n추가/수정/삭제"])
     UC_ManageOption(["옵션 관리\n추가/수정/삭제"])
-    UC_ViewSales(["매출 기록 조회"])
+    UC_ViewSales(["주문 내역 조회"])
   end
 
   %% 액터 → 유스케이스
