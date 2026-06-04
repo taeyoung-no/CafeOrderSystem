@@ -52,6 +52,10 @@ public class Order {
         return orderedAt;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public void setPayment(Payment payment) {
         this.payment = payment;
     }
