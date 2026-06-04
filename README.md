@@ -11,7 +11,7 @@
 
 ## Dev Notes
 - [[소프트웨어 공학] AI 에이전트랑 소통하려고 유스케이스 다이어그램 그린 사람](https://velog.io/@taeyoung-no/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-AI-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%9E%91-%EC%86%8C%ED%86%B5%ED%95%98%EB%A0%A4%EA%B3%A0-%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8-%EA%B7%B8%EB%A6%B0-%EC%82%AC%EB%9E%8C)
-- [[소프트웨어 공학] Repository에 interface 도입한 이유]([https://velog.io/@taeyoung-no/%EC%84%9C%EB%B2%84-%EB%B0%B1%EB%A1%9C%EA%B7%B8-%EC%9D%91%EB%8B%B5%EC%9D%B4-%EB%8A%90%EB%A0%B8%EB%8D%98-%EC%9D%B4%EC%9C%A0](https://velog.io/@taeyoung-no/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-Repository%EC%97%90-interface-%EB%8F%84%EC%9E%85%ED%95%9C-%EC%9D%B4%EC%9C%A0)
+- [[소프트웨어 공학] Repository에 interface 도입한 이유](https://velog.io/@taeyoung-no/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EA%B3%B5%ED%95%99-Repository%EC%97%90-interface-%EB%8F%84%EC%9E%85%ED%95%9C-%EC%9D%B4%EC%9C%A0)
 
 ## 요구사항 분석
 
