@@ -1,3 +1,14 @@
+# Cafe Order System
+소프트웨어 공학 학습용 프로젝트입니다.
+
+**Features**
+ - [요구사항 분석](#요구사항-분석)
+ - [유스케이스 다이어그램](#유스케이스-다이어그램)
+ - [클래스 다이어그램](#클래스-다이어그램)
+ - [ERD](#erd)
+ - Strategy 패턴 (결제 수단, `CardPayment` / `CashPayment`)
+ - Layered Architecture (Service, Repository, Domain)
+
 ## 요구사항 분석
 
 ### 주문 (고객)
