@@ -70,6 +70,10 @@ flowchart LR
 
 ### 클래스 다이어그램
 
+핵심 구조만 표현하기 위해 interface 구현체는 제외했습니다.
+
+[Multitier architecture](https://en.wikipedia.org/wiki/Multitier_architecture)를 참고해서 Presentation layer, Service layer, 그리고 Data access layer로 나눴습니다. 콘솔 앱이어서 Presentation layer는 표현되지 않습니다. Service 객체와 Domain 객체(`Menu`, `Option`, `Order` 등)는 Service layer, Repository 객체는 Data access layer에 포함됩니다.
+
 ```mermaid
 classDiagram
 direction LR
