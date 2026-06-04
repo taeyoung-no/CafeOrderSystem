@@ -12,8 +12,8 @@ public class OptionService {
         this.optionRepository = optionRepository;
     }
 
-    public Option addOption(String name, int extraPrice) {
-        Option option = new Option(null, name, extraPrice);
+    public Option addOption(String name, int price) {
+        Option option = new Option(null, name, price);
         return optionRepository.save(option);
     }
 
