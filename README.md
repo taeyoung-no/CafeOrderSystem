@@ -73,8 +73,8 @@ class MenuService {
 }
 class OptionService {
   -OptionRepository optionRepository
-  +addOption(String name, int extraPrice) Option
-  +updateOption(Long id, String name, int extraPrice) Option
+  +addOption(String name, int price) Option
+  +updateOption(Long id, String name, int price) Option
   +removeOption(Long id) void
   +getOptions() List~Option~
 }
@@ -104,7 +104,7 @@ class Menu {
 class Option {
   -Long id
   -String name
-  -int extraPrice
+  -int price
 }
 class Order {
   -Long id
@@ -120,7 +120,7 @@ class OrderItem {
   -Menu menu
   -List~Option~ options
   -int quantity
-  +getSubtotal() int
+  +getTotalPrice() int
 }
 class Payment {
   -int amount
@@ -215,7 +215,7 @@ erDiagram
   OPTION {
     bigint id PK
     string name
-    int extra_price
+    int price
   }
 
   MENU_OPTION {
